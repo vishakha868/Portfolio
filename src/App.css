@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+.react-multi-carousel-list {
+    margin-left: 4.5rem !important;
+    padding: 0rem 1rem 0rem 1rem;
+    margin-right: 0.5rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.react-multiple-carousel__arrow--left {
+    margin-left: -2rem !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-body-content {
+    width: 100%;
+    height: 100%;
+    background-color: #e1ecf0;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(57, 72, 105);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.align-name {
+    font-weight: 680;
+    font-size: 15vh;
+    margin-bottom:2.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.carousel .thumbs-wrapper {
+    margin-bottom: 0 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-alignment {
+    background-color: rgb(57, 72, 105);
+    bottom: 0 !important;
+    height: 5rem;
+}
+
+.main-carousel {
+    background-color: #e1ecf0;
+    
+    position: relative;
+}
+
+.candidate-image-align {
+    width: 150px;
+    height: 180px;
+    /* padding:0.2rem; */
+    border-radius: 20%;
+    box-shadow: 20px 20px 50px 15px grey;
+    margin: 7rem 8rem;
+}
+
+.line-add {
+    border-top: 2px solid rgb(57, 72, 105);
+    width: 30vh;
+    margin: 15rem 0rem 3rem 0rem;
+}
+
+.custom-arrow {
+    border-radius: 50%;
+    background-color: #d0e4eb;
+    color: rgb(57, 72, 105);
+    border: none;
+    padding: 0.7rem;
+    cursor: pointer;
+}
+
+.next-arrow,
+.prev-arrow {
+    position: absolute;
+    bottom: 10px !important;
+    right: 40px;
+    z-index: 1;
+}
+.prev-arrow{
+    right:100px !important;
 }

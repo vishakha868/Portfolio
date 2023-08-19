@@ -1,0 +1,14 @@
+.btn.nav-button{
+    background:rgb(225, 236, 240);
+    color: rgb(57, 72, 105);
+}
+
+.btn.nav-button.active, .btn.nav-button:disabled{
+    background: rgb(57, 72, 105);
+    color: rgb(225, 236, 240);
+}
+.nav-style{
+    background-color: #d0e4eb;
+}
+
+
